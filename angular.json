@@ -10,12 +10,9 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-<<<<<<< HEAD
           "inlineTemplate": true,
-          "inlineStyle": true
-=======
-          "styleext": "scss"
->>>>>>> 2e7401ae55ae64b41a1439bd51f33f59a9c71bea
+          "inlineStyle": true,
+          // "styleext": "scss"
         }
       },
       "architect": {
@@ -32,11 +29,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.css"
-=======
               "src/styles.scss"
->>>>>>> 2e7401ae55ae64b41a1439bd51f33f59a9c71bea
             ],
             "scripts": []
           },
@@ -85,11 +78,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-<<<<<<< HEAD
-              "src/styles.css"
-=======
               "src/styles.scss"
->>>>>>> 2e7401ae55ae64b41a1439bd51f33f59a9c71bea
             ],
             "scripts": [],
             "assets": [

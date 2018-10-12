@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
+<<<<<<< HEAD
   template: `
     <!--The content below is only a placeholder and can be replaced.-->
     <div style="text-align:center">
@@ -25,6 +26,10 @@ import { Component } from '@angular/core';
     
   `,
   styles: []
+=======
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+>>>>>>> 2e7401ae55ae64b41a1439bd51f33f59a9c71bea
 })
 export class AppComponent {
   title = 'conFusion';
